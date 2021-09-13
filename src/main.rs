@@ -6,5 +6,7 @@ fn main() {
 #[cfg(test)]
 mod tests {
     #[test]
-    assert_eq!(21 + 21, 42);
+    fn it_works() {
+        assert_eq!(21 + 21, 42);
+    }
 }

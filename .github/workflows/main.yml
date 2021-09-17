@@ -36,4 +36,4 @@ jobs:
         run: cargo fmt -- --check
 
       - name: Check for Security Vulnerabilities
-        run: cargo audit --ignore RUSTSEC-2020-0056
+        run: cargo audit --ignore RUSTSEC-2020-0056 RUSTSEC-2018-0019 RUSTSEC-2020-0048

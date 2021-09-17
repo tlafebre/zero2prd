@@ -1,12 +1,6 @@
-fn main() {
-    println!("Hello, world!");
-    println!("42");
-}
+use zero2prd::run;
 
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(21 + 21, 42);
-    }
+#[actix_web::main]
+async fn main() -> std::io::Result<()> {
+    run()?.await
 }

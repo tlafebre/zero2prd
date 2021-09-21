@@ -14,6 +14,7 @@ path = "src/lib.rs"
 actix-web = "=4.0.0-beta.8"
 actix-http = "=3.0.0-beta.9"
 actix-rt = "2.2.0"
+serde = { version = "1", features = ["derive"]}
 
 [dev-dependencies]
 reqwest = "0.11"

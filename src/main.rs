@@ -1,5 +1,5 @@
 use std::net::TcpListener;
-use zero2prd::run;
+use zero2prd::startup::run;
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
